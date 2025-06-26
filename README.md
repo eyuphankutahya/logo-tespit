@@ -42,6 +42,9 @@ Bu repo, **karmaşık arka planlı görüntü / videolarda araç logosu tespiti*
 
 ### Demo
 ```bash
-# Projeyi çalıştırmak için... 
-streamlit run arac_logo_tespiti_fastaccurate.py --
+# Projeyi çalıştırmak için öncelikle aşağıdaki kurulumları yapmak zorundayız.
+ python -m pip install --upgrade streamlit   
+ python -m pip install --upgrade imageio imageio-ffmpeg  
 
+Daha sonrasında projeyi çalıştırmak için:
+streamlit run arac_logo_tespiti_fastaccurate.py --
