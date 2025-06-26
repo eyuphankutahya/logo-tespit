@@ -3,19 +3,6 @@
 
 ---
 
-### İçindekiler
-1. [Genel Bakış](#genel-bakış)  
-2. [Öne Çıkan Yetenekler](#öne-çıkan-yetenekler)  
-3. [Demo](#demo)  
-4. [Hızlı Kurulum](#hızlı-kurulum)  
-5. [Kullanım](#kullanım)  
-6. [Proje Dizini](#proje-dizini)  
-7. [Modeli Yeniden Eğitmek](#modeli-yeniden-eğitmek)  
-8. [SSS](#sss)  
-9. [Katkı Sağlama](#katkı-sağlama)  
-10. [Lisans](#lisans)
-
----
 
 ### Genel Bakış
 Bu repo, **karmaşık arka planlı görüntü / videolarda araç logosu tespiti** yapmak için hazırlanmış bir Streamlit uygulamasını içerir.  
