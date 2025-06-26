@@ -18,7 +18,8 @@ Bu repo, **karmaşık arka planlı görüntü / videolarda araç logosu tespiti*
 ### Öne Çıkan Yetenekler
 | Özellik | Açıklama |
 |---------|----------|
-| **Tek-komut kurulum** | `pip install -r requirements.txt` |
+| **komut kurulum** | `python -m pip install --upgrade streamlit   ve  python -m pip install --upgrade imageio imageio-ffmpeg ` |
+| **Projeyi Çalıştırmak İçin ** | `streamlit run arac_logo_tespiti_fastaccurate.py -- ` |
 | **GPU otomatiği** | CUDA algılanırsa model GPU’ya taşınır |
 | **Yüksek doğruluk** | Küçük logoları yakalamak için görüntüyü 4 parçaya böler |
 | **Gerçek-zamanlı takip** | ByteTrack / BoT-SORT ile kutular kareler arasında korunur |
@@ -31,7 +32,7 @@ Bu repo, **karmaşık arka planlı görüntü / videolarda araç logosu tespiti*
 ```bash
 # Projeyi çalıştırmak için öncelikle aşağıdaki kurulumları yapmak zorundayız.
  python -m pip install --upgrade streamlit   
- python -m pip install --upgrade imageio imageio-ffmpeg  
+  
 
 Daha sonrasında projeyi çalıştırmak için:
-streamlit run arac_logo_tespiti_fastaccurate.py --
+
