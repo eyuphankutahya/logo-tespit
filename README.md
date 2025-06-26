@@ -42,9 +42,6 @@ Bu repo, **karmaşık arka planlı görüntü / videolarda araç logosu tespiti*
 
 ### Demo
 ```bash
-# Örnek fotoğraf
-streamlit run app.py -- --demo demo/car.jpg
+# Projeyi çalıştırmak için... 
+streamlit run arac_logo_tespiti_fastaccurate.py --
 
-# Örnek video (ByteTrack, hızlı)
-streamlit run app.py -- --demo demo/traffic.mp4 \
-                     --tracker ByteTrack --fast-preview
